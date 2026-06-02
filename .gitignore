@@ -1,0 +1,44 @@
+# Model weights (quá lớn để push lên GitHub)
+*.safetensors
+*.pt
+*.bin
+*.pth
+checkpoint-*/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Môi trường
+.env
+.venv/
+venv/
+env/
+
+# HuggingFace token 
+**/huggingface_token*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dữ liệu gốc (nếu có bản quyền)
+data/*.txt
+data/**/*.txt
+
+# File tạm
+*.tmp
+*.log
+
+.history/
